@@ -1,0 +1,1 @@
+devenv TokenizerInsert.vcxproj /rebuild debug

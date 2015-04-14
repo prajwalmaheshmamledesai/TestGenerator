@@ -1,0 +1,36 @@
+IGenerator* rTest = IGenerator::createTest();
+ std :: string str = "Data.txt";
+ std::string d = rTest->test(str);
+  ILogger* qTest = ILogger::createTest();
+		Toker tk(str,false);
+std::string str;
+//tk.getTok t_fromStr(temp,false);
+	std::string tok;
+  do
+  {
+    tok = tk.getTok();
+    std::cout << "  " << tok;
+	str += tok;
+  } while(tok != "");
+  std::string value;
+  int position=0;
+	std::fstream x;
+    std::ifstream s("checker.txt");
+	if(s.is_open())
+	{
+		std::cout<<"yes";
+	}
+	s >> value;
+	int z=strcmp(value.c_str(),str.c_str());
+  if(z==0){
+  return true;
+  std::cout << "\n  test passed\n\n";
+	std::string str = "Test Passed";
+	qTest->test(str);
+    }
+  else{  
+    return false;
+	std::cout << "\n  test failed\n\n";
+	std::string str = "Test Failed";
+	qTest->test(str);
+  }

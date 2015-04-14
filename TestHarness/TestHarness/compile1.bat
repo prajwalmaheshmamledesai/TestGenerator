@@ -1,0 +1,1 @@
+devenv TestHarness.vcxproj /rebuild debug

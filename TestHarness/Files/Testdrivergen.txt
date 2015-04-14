@@ -1,0 +1,28 @@
+/*MyHeader*/
+#include <iostream>
+#include "TestDriver.h"
+#include <fstream>
+
+TestDriver::TestDriver(void)
+{
+  // initialize any test stuff here
+}
+
+TestDriver::~TestDriver(void)
+{
+  // deallocate test resources here
+}
+
+ITest* ITest::createTest()
+{ 
+  return new TestDriver;
+}
+
+bool TestDriver::test()
+{	
+/*MyCode*/
+return 0;
+}
+
+
+

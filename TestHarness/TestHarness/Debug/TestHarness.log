@@ -1,0 +1,74 @@
+﻿Build started 2/11/2012 11:35:55 PM.
+     1>Project "C:\Users\Prajwal\Documents\Visual Studio 2010\Projects\PrajwalMahesh_Project1\TestHarness\TestHarness\TestHarness.vcxproj" on node 4 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\TestHarness.lastbuildstate".
+       InitializeBuildStatus:
+         Creating "Debug\TestHarness.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CodeGenerator.cpp DataGenerator.cpp Executive.cpp FileCollectors.cpp fileInfo.cpp FileMgr.cpp FileReader.cpp FileSystem.cpp GenerateProject.cpp HeaderCollector.cpp StringConversion.cpp WinTools.cpp XmlReader.cpp XmlWriter.cpp
+         XmlWriter.cpp
+         XmlReader.cpp
+         WinTools.cpp
+         StringConversion.cpp
+         HeaderCollector.cpp
+         GenerateProject.cpp
+         FileSystem.cpp
+         FileReader.cpp
+     1>c:\users\prajwal\documents\visual studio 2010\projects\prajwalmahesh_project1\testharness\testharness\filereader.cpp(34): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         FileMgr.cpp
+         fileInfo.cpp
+         FileCollectors.cpp
+     1>c:\users\prajwal\documents\visual studio 2010\projects\prajwalmahesh_project1\testharness\testharness\filecollectors.cpp(44): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+         Executive.cpp
+         DataGenerator.cpp
+     1>c:\users\prajwal\documents\visual studio 2010\projects\prajwalmahesh_project1\testharness\testharness\datagenerator.cpp(39): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\time.inl(112) : see declaration of 'localtime'
+         CodeGenerator.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\TestHarness.exe.embed.manifest.res" Debug\TestHarness_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Prajwal\Documents\Visual Studio 2010\Projects\PrajwalMahesh_Project1\TestHarness\Debug\TestHarness.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TestHarness.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Prajwal\Documents\Visual Studio 2010\Projects\PrajwalMahesh_Project1\TestHarness\Debug\TestHarness.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Prajwal\Documents\Visual Studio 2010\Projects\PrajwalMahesh_Project1\TestHarness\Debug\TestHarness.lib" /MACHINE:X86 Debug\TestHarness.exe.embed.manifest.res
+         Debug\CodeGenerator.obj
+         Debug\DataGenerator.obj
+         Debug\Executive.obj
+         Debug\FileCollectors.obj
+         Debug\fileInfo.obj
+         Debug\FileMgr.obj
+         Debug\FileReader.obj
+         Debug\FileSystem.obj
+         Debug\GenerateProject.obj
+         Debug\HeaderCollector.obj
+         Debug\StringConversion.obj
+         Debug\WinTools.obj
+         Debug\XmlReader.obj
+         Debug\XmlWriter.obj
+       Manifest:
+         Deleting file "Debug\TestHarness.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\TestHarness.exe.embed.manifest" /manifest Debug\TestHarness.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\TestHarness.exe.embed.manifest.res" Debug\TestHarness_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Prajwal\Documents\Visual Studio 2010\Projects\PrajwalMahesh_Project1\TestHarness\Debug\TestHarness.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TestHarness.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Prajwal\Documents\Visual Studio 2010\Projects\PrajwalMahesh_Project1\TestHarness\Debug\TestHarness.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Prajwal\Documents\Visual Studio 2010\Projects\PrajwalMahesh_Project1\TestHarness\Debug\TestHarness.lib" /MACHINE:X86 Debug\TestHarness.exe.embed.manifest.res
+         Debug\CodeGenerator.obj
+         Debug\DataGenerator.obj
+         Debug\Executive.obj
+         Debug\FileCollectors.obj
+         Debug\fileInfo.obj
+         Debug\FileMgr.obj
+         Debug\FileReader.obj
+         Debug\FileSystem.obj
+         Debug\GenerateProject.obj
+         Debug\HeaderCollector.obj
+         Debug\StringConversion.obj
+         Debug\WinTools.obj
+         Debug\XmlReader.obj
+         Debug\XmlWriter.obj
+         TestHarness.vcxproj -> C:\Users\Prajwal\Documents\Visual Studio 2010\Projects\PrajwalMahesh_Project1\TestHarness\Debug\TestHarness.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\TestHarness.unsuccessfulbuild".
+         Touching "Debug\TestHarness.lastbuildstate".
+     1>Done Building Project "C:\Users\Prajwal\Documents\Visual Studio 2010\Projects\PrajwalMahesh_Project1\TestHarness\TestHarness\TestHarness.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.90

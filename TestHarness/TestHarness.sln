@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestHarness", "TestHarness\TestHarness.vcxproj", "{2FCAF349-FB55-4338-99A6-7C2D5B4663DF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TokenizerInsert", "TokenizerInsert\TokenizerInsert.vcxproj", "{5C56682A-CC2E-44DF-8ACC-FB5F93E83BD6}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DLLGenProject", "DLLGenProject\DLLGenProject.vcxproj", "{3C0A5691-C684-4D23-AE27-0E4F593CE6DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FCAF349-FB55-4338-99A6-7C2D5B4663DF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2FCAF349-FB55-4338-99A6-7C2D5B4663DF}.Debug|Win32.Build.0 = Debug|Win32
+		{2FCAF349-FB55-4338-99A6-7C2D5B4663DF}.Release|Win32.ActiveCfg = Release|Win32
+		{2FCAF349-FB55-4338-99A6-7C2D5B4663DF}.Release|Win32.Build.0 = Release|Win32
+		{5C56682A-CC2E-44DF-8ACC-FB5F93E83BD6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{5C56682A-CC2E-44DF-8ACC-FB5F93E83BD6}.Debug|Win32.Build.0 = Debug|Win32
+		{5C56682A-CC2E-44DF-8ACC-FB5F93E83BD6}.Release|Win32.ActiveCfg = Release|Win32
+		{5C56682A-CC2E-44DF-8ACC-FB5F93E83BD6}.Release|Win32.Build.0 = Release|Win32
+		{3C0A5691-C684-4D23-AE27-0E4F593CE6DE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3C0A5691-C684-4D23-AE27-0E4F593CE6DE}.Debug|Win32.Build.0 = Debug|Win32
+		{3C0A5691-C684-4D23-AE27-0E4F593CE6DE}.Release|Win32.ActiveCfg = Release|Win32
+		{3C0A5691-C684-4D23-AE27-0E4F593CE6DE}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

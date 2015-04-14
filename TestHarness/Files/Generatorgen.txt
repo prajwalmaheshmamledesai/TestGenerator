@@ -1,0 +1,29 @@
+// Generator.cpp
+//
+// Prajwal Mahesh Mamledesai
+#include <iostream>
+#include "DataGenerator.h"
+#include "Generator.h"
+#include  "Time.h"
+#include <fstream>
+Generator::Generator(void)
+{
+  // initialize any test stuff here
+}
+
+Generator::~Generator(void)
+{
+  // deallocate test resources here
+}
+
+IGenerator* IGenerator::createTest()
+{ 
+  return new Generator;
+}
+
+std::string Generator::test(std::string& a)
+{
+/*MyCode*/
+	return 0;
+	
+}

@@ -1,0 +1,3 @@
+	Generators c;
+	c.Datalogger(a);
+	return true;

@@ -1,0 +1,1 @@
+devenv DLLGenProject.vcxproj /rebuild debug

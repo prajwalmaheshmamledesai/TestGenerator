@@ -1,0 +1,4 @@
+	Generators c;
+	std::string d=c.StringGenerator(a);
+	return d;
+

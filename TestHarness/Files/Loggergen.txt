@@ -1,0 +1,32 @@
+// Logger.cpp
+//
+// Prajwal Mahesh Mamledesai
+#include <iostream>
+#include "Logger.h"
+#include  "Time.h"
+#include "DataGenerator.h"
+#include <fstream>
+Logger::Logger(void)
+{
+  // initialize any test stuff here
+}
+
+Logger::~Logger(void)
+{
+  // deallocate test resources here
+}
+
+ILogger* ILogger::createTest()
+{ 
+  return new Logger;
+}
+
+bool Logger::test(std::string& a)
+{	
+/*MyCode*/
+	return 0;
+}
+
+
+
+
